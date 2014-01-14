@@ -21,6 +21,7 @@ public class Server {
 	
 	
 	public static void main(String[] args) {
+		//another test modification
     	ApplicationContext springContainer = new AnnotationConfigApplicationContext(ServerSpringConfig.class);
     	Server server = springContainer.getBean(Server.class);
     	log.info("Server started");

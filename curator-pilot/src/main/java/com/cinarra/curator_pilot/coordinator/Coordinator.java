@@ -17,7 +17,7 @@ public class Coordinator {
 	
 	
 	private void listen() throws Exception{
-		log.info("=============== WELCOME ================" );
+		log.info("=============== WELCOME? ================" );
 		
 		while(true) {
 			servers.printNodes();
