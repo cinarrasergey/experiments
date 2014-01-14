@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Server {
+	//this is log
 	private static Logger log = LoggerFactory.getLogger(Server.class);
 	
 	@Autowired
