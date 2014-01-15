@@ -21,7 +21,7 @@ import com.google.common.io.Closeables;
 
 @Component
 @ManagedResource(
-		objectName="bean:name=serversZNode", 
+		objectName="com.cinarra.config:name=serversZNode", 
 		description="Servers ZNode info")
 public class ServersZNode {
 	private static Logger log = LoggerFactory.getLogger(ServersZNode.class);
